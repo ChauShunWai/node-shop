@@ -10,6 +10,6 @@ I used AWS S3 to store images and Google App Engine to deploy this node.js appli
 
 # How to use
 [http://klauschaulandfill.wtf/](http://klauschaulandfill.wtf/)  
-Npm start would not work as .env is not uploaded.  
+npm start would not work as .env is not uploaded.  
 Source code is uploaded just for reference.  
 Thanks for staying.
