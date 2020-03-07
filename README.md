@@ -9,7 +9,7 @@ You could view your invoice on the order page after payment. Invoice in pdf form
 I used AWS S3 to store images and Google App Engine to deploy this node.js application.
 
 # How to use
-[http://klauschaulandfill.wtf/](http://klauschaulandfill.wtf/)  
+Simply go to [http://klauschaulandfill.wtf/](http://klauschaulandfill.wtf/)  
 npm start would not work as .env is not uploaded.  
 Source code is uploaded just for reference.  
 Thanks for staying.
