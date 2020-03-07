@@ -1,0 +1,32 @@
+<section class="pagination">
+  <% const pageArr = []; let initPage = 1; let finalPage = pages; let
+  totalButton = 5; if (pages > totalButton) { if (page <= totalButton -
+  Math.floor(totalButton/2)) { initPage = 1; finalPage = totalButton; } else if
+  (page >= pages - Math.floor(totalButton/2)) { initPage = pages - totalButton +
+  1; finalPage = pages; } else { initPage = page - Math.floor(totalButton/2);
+  finalPage = page + Math.floor(totalButton/2); }; }; for (let i = initPage; i
+  <= finalPage; i++) { pageArr.push(i);}; %>
+
+  <a href="<%= page === 1 ? '#!' : '?page=1' %>"><<</a>
+  <% if(page === 1) { %>
+  <a href="#!"><</a>
+  <% } else { %>
+  <a href="?page=<%= previousPage %>"><</a>
+  <% }; %> <% if(initPage !== 1){ %>
+  <a href="#!">...</a>
+  <% }; %> <% pageArr.forEach(i => { %> <% if(i === page) { %>
+  <a class="active" href="#!"><%= i %></a>
+  <% } else { %>
+  <a href="?page=<%= i %>"><%= i %></a>
+  <% }; %> <% }); %> <% if(finalPage !== pages){ %>
+  <a href="#!">...</a>
+  <% }; %> <% if(page === pages) { %>
+  <a href="#!">></a>
+  <% } else { %>
+  <a href="?page=<%= nextPage %>">></a>
+  <% }; %> <% if(page === pages) { %>
+  <a href="#!">>></a>
+  <% } else { %>
+  <a href="?page=<%= pages %>">>></a>
+  <% }; %>
+</section>
