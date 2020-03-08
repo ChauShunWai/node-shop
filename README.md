@@ -1,5 +1,5 @@
 # node-shop
-You could ad, edit, delete your own products.  
+You could add, edit, delete your own products.  
 You could only see your own products in the admin products page.  
 You would receive an email when register, request password reset and upon successful reset.  
 You can place your order. (minimun cost is $4 dollar).  
