@@ -1,3 +1,5 @@
+# My free trial for AWS/Google Cloud has expired :( therefore, no photos will be shown/uploaded
+
 # node-shop
 You could add, edit, delete your own products.  
 You could only see your own products in the admin products page.  
