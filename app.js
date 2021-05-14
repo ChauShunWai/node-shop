@@ -15,7 +15,7 @@ const helmet = require('helmet');
 const compression = require('compression');
 // const morgan = require('morgan');
 const AWS = require('aws-sdk');
-const multerS3 = require('multer-s3');
+const multerS3 = require('multer-s3-v3');
 const s3Proxy = require('s3-proxy');
 const { v4 } = require('uuid');
 
